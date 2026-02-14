@@ -4,6 +4,9 @@ A full-stack application that renders a Google Calendar view into a high-contras
 
 ![E-Ink Dashboard Preview](images/cal.png)
 
+Generated Images you can send to your BYOS Terminal server like so:
+![trmnl Preview](extension/cal.png)
+
 ## 📂 Project Structure
 
 - `server/`: Node.js/Express backend that fetches the `.ics` data and uses Puppeteer to screenshot the calendar.
