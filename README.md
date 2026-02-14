@@ -1,6 +1,8 @@
 # E-Ink Calendar Dashboard
 
-A full-stack application that renders a Google Calendar view into a high-contrast, dithered PNG image optimized for E-ink displays (like Raspberry Pi or ESP32).
+A full-stack application that renders a Google Calendar view into a high-contrast, dithered PNG image optimized for E-ink displays (Like the trmnl OG 1bit).
+
+![E-Ink Dashboard Preview](images/cal.png)
 
 ## 📂 Project Structure
 
