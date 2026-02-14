@@ -5,7 +5,7 @@ A full-stack application that renders a Google Calendar view into a high-contras
 ![E-Ink Dashboard Preview](images/cal.png)
 
 Generated Images you can send to your BYOS Terminal server like so:
-![trmnl Preview](extension/cal.png)
+![trmnl Preview](images/extension.png)
 
 ## 📂 Project Structure
 
