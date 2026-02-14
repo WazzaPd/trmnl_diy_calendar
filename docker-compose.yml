@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  trmnl-bridge:
+    build: ./bridge
+    container_name: trmnl-bridge
+    restart: unless-stopped
+    ports:
+      - "3002:3002"
+    environment:
+      - ICAL_URL=${ICAL_URL} # Passes the secret from your .env file
+      - TZ=America/New_York  # Sets the container timezone (important for calendar!)
+    volumes:
+      # Mount the 'client/dist' folder so the server can see the built React app
+      - ./client/dist:/app/../client/dist
