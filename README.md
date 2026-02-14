@@ -4,9 +4,6 @@ A full-stack application that renders a Google Calendar view into a high-contras
 
 ![E-Ink Dashboard Preview](images/cal.png)
 
-Generated Images you can send to your BYOS Terminal server like so:
-![trmnl Preview](images/extension.png)
-
 ## 📂 Project Structure
 
 - `server/`: Node.js/Express backend that fetches the `.ics` data and uses Puppeteer to screenshot the calendar.
@@ -60,6 +57,9 @@ http://localhost:3002
 | GET /feed.ics      | Proxies the raw Google Calendar iCal data securely.                     |
 | GET /              | Serves the built React client (HTML view of the calendar).              |
 
+Generated Images you can send to your BYOS Terminal server like so:
+![trmnl Preview](images/extension.png)
+
 ## ⚙️ Tech Stack
 
 Server: Node.js, Express, Puppeteer, Sharp
@@ -67,3 +67,6 @@ Server: Node.js, Express, Puppeteer, Sharp
 Client: React, Vite
 
 Deployment: Designed for local hosting (trmnl)
+
+## Final Product
+![trmnl Preview](images/final.png)
