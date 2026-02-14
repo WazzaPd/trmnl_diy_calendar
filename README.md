@@ -21,12 +21,12 @@ Generated Images you can send to your BYOS Terminal server like so:
 ```bash
 cd server
 npm install
-'''
+```
 
-'''Client
+```Client
 cd ../client
 npm install
-'''
+```
 
 ###2. Congigure Environment
 Create a file named .env in the server/ directory and add your private Google Calendar URL:
@@ -43,7 +43,7 @@ npm run build
 ```
 
 ## 🛠 Usage
-Start the server from the 'server/' directory:
+Start the server from the ```server/``` directory:
 ```
 cd ../server
 node server.js
@@ -66,4 +66,4 @@ Server: Node.js, Express, Puppeteer, Sharp
 
 Client: React, Vite
 
-Deployment: Designed for local hosting (Raspberry Pi/Home Lab)
+Deployment: Designed for local hosting (trmnl)
